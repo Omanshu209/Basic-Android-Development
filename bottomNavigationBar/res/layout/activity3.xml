@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "fill_parent"
+    android:layout_height = "fill_parent"
+	android:rowCount = "2"
+	android:columnCount = "1"
+	android:orientation = "horizontal"
+	android:layout_gravity = "fill"
+>
+
+	<LinearLayout
+		xmlns:android = "http://schemas.android.com/apk/res/android"
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:orientation = "vertical"
+		android:gravity = "center"
+		android:layout_rowWeight = "9"
+	>
+
+		<TextView
+			android:layout_width = "match_parent"
+			android:layout_height = "match_parent"
+			android:text = "SCREEN 3"
+			android:textSize = "40sp" 
+		/>
+
+	</LinearLayout>
+
+	<GridLayout
+		xmlns:android = "http://schemas.android.com/apk/res/android"
+		android:layout_height = "0dp"
+		android:layout_width = "match_parent"
+		android:layout_rowWeight = "1"
+		android:background = "#ACD5C2"
+		android:rowCount = "1"
+		android:columnCount = "3"
+		android:orientation = "horizontal"
+		android:layout_gravity = "fill"
+	>
+
+		<ImageButton
+			android:id = "@+id/icon_button1"
+			android:layout_height = "match_parent"
+			android:layout_width = "0dp"
+			android:layout_columnWeight = "1"
+			android:src = "@drawable/icon1"
+			android:background = "?android:attr/selectableItemBackgroundBorderless"
+			android:contentDescription = "Icon button"
+			android:scaleType = "centerInside"
+            android:padding = "8dp"
+		/>
+
+		<ImageButton
+			android:id = "@+id/icon_button2"
+			android:layout_height = "match_parent"
+			android:layout_width = "0dp"
+			android:layout_columnWeight = "1"
+			android:src = "@drawable/icon2"
+			android:background = "?android:attr/selectableItemBackgroundBorderless"
+			android:contentDescription = "Icon button"
+			android:scaleType = "centerInside"
+            android:padding = "8dp"
+		/>
+
+		<ImageButton
+			android:id = "@+id/icon_button3"
+			android:layout_height = "match_parent"
+			android:layout_width = "0dp"
+			android:layout_columnWeight = "1"
+			android:src = "@drawable/icon3"
+			android:background = "?android:attr/selectableItemBackgroundBorderless"
+			android:contentDescription = "Icon button"
+			android:scaleType = "centerInside"
+            android:padding = "8dp"
+		/>
+
+	</GridLayout>
+
+</GridLayout>
